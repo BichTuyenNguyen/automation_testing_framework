@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 26 11:26:05 ICT 2019","Fri Jul 26 11:26:21 ICT 2019","15406","","","","","","Check the user's full name after login to the application -- @1.1 ",""
+"passed","Fri Jul 26 11:24:24 ICT 2019","Fri Jul 26 11:24:42 ICT 2019","18249","","","","","","Check that all related tags of a image are correct -- @1.1 ",""
+"passed","Fri Jul 26 11:25:06 ICT 2019","Fri Jul 26 11:26:05 ICT 2019","58726","","","","","","Check that the image is downloaded and exist in system -- @1.1 ",""
+"passed","Fri Jul 26 11:24:42 ICT 2019","Fri Jul 26 11:25:06 ICT 2019","24544","","","","","","Check that the image is downloaded and exist in system -- @1.1 ",""
+"passed","Fri Jul 26 11:26:21 ICT 2019","Fri Jul 26 11:26:37 ICT 2019","16541","","","","","","Check that the user's location is correct after updated -- @1.1 ",""
+"passed","Fri Jul 26 11:24:07 ICT 2019","Fri Jul 26 11:24:24 ICT 2019","16692","","","","","","Check that the image's camera model and focal length are correct -- @1.1 ",""
+"passed","Fri Jul 26 11:23:48 ICT 2019","Fri Jul 26 11:24:07 ICT 2019","19251","","","","","","Check that the user can create a new collection and add a photo into it -- @1.1 ",""

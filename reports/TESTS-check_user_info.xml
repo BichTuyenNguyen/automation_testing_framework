@@ -1,0 +1,29 @@
+<testsuite errors="0" failures="0" hostname="HSSSC1PCL01464" name="check_user_info.Check User Information" skipped="0" tests="2" time="15.112632" timestamp="2019-07-26T10:50:39.867369"><testcase classname="check_user_info.Check User Information" name="Check the user's full name after login to the application -- @1.1 " status="passed" time="7.02451"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-1 @check-user @check-user-name
+  Scenario Outline: Check the user's full name after login to the application -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 4.960s
+    When the user goes to Collection page ... passed in 2.017s
+    Then the user able to see Tuyen Nguyen is displayed ... passed in 0.047s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="check_user_info.Check User Information" name="Check that the user's location is correct after updated -- @1.1 " status="passed" time="8.088121"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-2 @check-user @check-user-location
+  Scenario Outline: Check that the user's location is correct after updated -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 4.926s
+    Given the user goes to Edit Profile page ... passed in 1.785s
+    When the user enters Vietnam in the location input ... passed in 0.114s
+    And the user clicks on the Update account button ... passed in 1.234s
+    Then the user should see the updated location is Vietnam ... passed in 0.029s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

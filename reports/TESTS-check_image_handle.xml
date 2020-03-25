@@ -1,0 +1,74 @@
+<testsuite errors="0" failures="0" hostname="HSSSC1PCL01464" name="check_image_handle.Check Image Handing" skipped="0" tests="4" time="107.078548" timestamp="2019-07-26T10:50:05.803485"><testcase classname="check_image_handle.Check Image Handing" name="Check that the image's camera model and focal length are correct -- @1.1 " status="passed" time="39.538464"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-3 @check-image @check-image-information
+  Scenario Outline: Check that the image's camera model and focal length are correct -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 5.882s
+    When the user opens an image with ID using this https://unsplash.com/photos/2TLREZi7BUg ... passed in 1.670s
+    And the user clicks on Info button ... passed in 31.895s
+    Then the user should see the image's info as below ... passed in 0.091s
+      | camera_model | focal_length |
+      | Canon EOS 6D | 24.0mm       |
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="check_image_handle.Check Image Handing" name="Check that all related tags of a image are correct -- @1.1 " status="passed" time="8.060648"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-4 @check-image @check-image-related-tags
+  Scenario Outline: Check that all related tags of a image are correct -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 6.092s
+    When the user opens an image with ID using this https://unsplash.com/photos/E6PWA9GvIBU ... passed in 1.148s
+    Then the user should see all related tags of the image ... passed in 0.821s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+d:\python\unsplash_selenium\venv\lib\site-packages\urllib3\connectionpool.py:851: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+]]>
+</system-err></testcase><testcase classname="check_image_handle.Check Image Handing" name="Check that the image is downloaded and exist in system -- @1.1 " status="passed" time="7.844624"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-6 @check-image @check-image-downloadable
+  Scenario Outline: Check that the image is downloaded and exist in system -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 5.954s
+    When the user opens an image with ID using this https://unsplash.com/photos/2TLREZi7BUg ... passed in 1.254s
+    And the user downloads image ... passed in 0.637s
+    Then the user notices that the image is downloadable and the correct image has been saved ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="check_image_handle.Check Image Handing" name="Check that the image is downloaded and exist in system -- @1.1 " status="passed" time="51.634811"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-7 @check-image @check-image-downloadable-with-hashcode
+  Scenario Outline: Check that the image is downloaded and exist in system -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 6.207s
+    When the user opens an image with ID using this https://unsplash.com/photos/2TLREZi7BUg ... passed in 1.524s
+    And the user downloads image using API ... passed in 43.905s
+    Then the user notices that the hashcode of image is the same with 5fa251cfe7cd7c4c99529bb74f2f3d51 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+d:\python\unsplash_selenium\venv\lib\site-packages\urllib3\connectionpool.py:851: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+d:\python\unsplash_selenium\venv\lib\site-packages\urllib3\connectionpool.py:851: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+]]>
+</system-err></testcase></testsuite>

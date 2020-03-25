@@ -1,0 +1,242 @@
+
+        <html>
+        <head>
+            <title>reports/TESTS-check_user_info.xml - Junit Test Report</title>
+            <style type="text/css">
+              h1 {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: sans-serif;
+}
+
+li > a {
+    font-family: monospace;
+}
+
+body {
+    margin-bottom: 3em;
+}
+
+.testclass > td {
+    border-bottom: 1px solid silver;
+    color: #222222;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.testclass > div {
+    padding-left: 1em;
+}
+
+.testclass > a > div {
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.testcase > div {
+    border-left: 3px solid black;
+    padding-left: 1em;
+}
+
+.testcase pre {
+    display: block;
+    padding: 4px;
+    margin-right: 1em;
+    background-color: #121212;
+    color: #dedede;
+    white-space: pre-wrap;
+}
+
+.testcase .details b {
+    font-size: 1.2em;
+}
+
+.stdout, .stderr, .property {
+    margin-left: 1em;
+}
+
+.testcase-link {
+    text-decoration: none;
+}
+
+.testcase-cell {
+    height: 1.8em;
+    width: 1.8em;
+    vertical-align: middle;
+    text-align: center;
+}
+.testcase-cell a {
+    display: inline-block;
+    margin: -1em;
+    padding: 1em;
+}
+
+.testcase-combined {
+    white-space: pre;
+    padding-left: 1em;
+}
+
+.skipped {
+    background-color: gold;
+}
+
+.failed {
+    background-color: lightcoral;
+}
+
+.passed {
+    background-color: limegreen;
+}
+
+.tooltip {
+    visibility: hidden;
+    padding: 2px;
+    z-index: 1;
+    position: absolute;
+    background: cornsilk;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.tooltip-parent:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.testcase:hover {
+    background-color: gray;
+    color: white;
+}
+
+.result-stats {
+    margin: auto;
+}
+
+            </style>
+        </head><body><h1>Test Report</h1>
+        <div class="testsuite">
+            <h2>Test Suite: check_user_info.Check User Information</h2><a name="83a7df1e-04e7-4b98-a4fb-15024d0db16d">
+            
+            
+            <table>
+            <tr><th align="left">Duration</th><td align="right">15.112632 sec</td></tr>
+            <tr><th align="left">Test Cases</th><td align="right">2</td></tr>
+            <tr><th align="left">Failures</th><td align="right">0</td></tr>
+            
+            
+            </table>
+            <a name="toc"></a>
+            <h2>Results Index</h2>
+            
+        <ul>
+            
+            
+            <li>All Test Classes
+            <ul>
+            <li>
+                <a href="#90dd3c60-7c9f-47a8-bac1-759af90ac58b">check_user_info.Check User Information</a>
+                <ul>
+                
+                    <li>
+                        <a href="#b68ef8cb-130b-4e86-8de6-5cc070f9cada">Check the user's full name after login to the application -- @1.1 </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#acdbb141-78ef-43c0-b191-5f4b5b1192ec">Check that the user's location is correct after updated -- @1.1 </a>
+                    </li>
+                    
+                </ul>
+            </li>
+            </ul>
+            </li>
+        </ul>
+        
+            <hr size="2"/>
+            <h2>Test Results</h2>
+            <div class="testclasses">
+            
+        <hr size="2"/>
+        <a name="90dd3c60-7c9f-47a8-bac1-759af90ac58b">
+        <div class="testclass">
+            <div>Test Class: check_user_info.Check User Information</div>
+            <div class="testcases">
+            
+    <a name="b68ef8cb-130b-4e86-8de6-5cc070f9cada">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>Check the user's full name after login to the application -- @1.1 </b></span><br/>
+                <span class="testclassname">check_user_info.Check User Information</span><br/>
+                <span class="duration">Time Taken: 7.02451s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>
+
+@scenario.begin
+
+  @id-1 @check-user @check-user-name
+  Scenario Outline: Check the user's full name after login to the application -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 4.960s
+    When the user goes to Collection page ... passed in 2.017s
+    Then the user able to see Tuyen Nguyen is displayed ... passed in 0.047s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre></pre></div>
+                
+        </div>
+    </a>
+        
+    <a name="acdbb141-78ef-43c0-b191-5f4b5b1192ec">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>Check that the user's location is correct after updated -- @1.1 </b></span><br/>
+                <span class="testclassname">check_user_info.Check User Information</span><br/>
+                <span class="duration">Time Taken: 8.088121s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>
+
+@scenario.begin
+
+  @id-2 @check-user @check-user-location
+  Scenario Outline: Check that the user's location is correct after updated -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 4.926s
+    Given the user goes to Edit Profile page ... passed in 1.785s
+    When the user enters Vietnam in the location input ... passed in 0.114s
+    And the user clicks on the Update account button ... passed in 1.234s
+    Then the user should see the updated location is Vietnam ... passed in 0.029s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre></pre></div>
+                
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+            </div>
+        </div>
+        </body></html>

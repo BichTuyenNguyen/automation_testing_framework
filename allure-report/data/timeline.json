@@ -1,0 +1,96 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Check that the user can create a new collection and add a photo into it -- @1.1 ",
+    "uid" : "ac81aa3c7dda3dab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115028132,
+      "stop" : 1564115047383,
+      "duration" : 19251
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "testing selenium", "2TLREZi7BUg", "False", "2172019", "tuyen" ]
+  }, {
+    "name" : "Check the user's full name after login to the application -- @1.1 ",
+    "uid" : "c800034e60d26e27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115165624,
+      "stop" : 1564115181030,
+      "duration" : 15406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Tuyen Nguyen", "tuyen" ]
+  }, {
+    "name" : "Check that all related tags of a image are correct -- @1.1 ",
+    "uid" : "5ea62ef5046856d8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115064088,
+      "stop" : 1564115082337,
+      "duration" : 18249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://unsplash.com/photos/E6PWA9GvIBU", "tuyen" ]
+  }, {
+    "name" : "Check that the image is downloaded and exist in system -- @1.1 ",
+    "uid" : "4ba63c0c93ac63e3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115082342,
+      "stop" : 1564115106886,
+      "duration" : 24544
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://unsplash.com/photos/2TLREZi7BUg", "tuyen" ]
+  }, {
+    "name" : "Check that the image's camera model and focal length are correct -- @1.1 ",
+    "uid" : "4990552b7702e4ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115047390,
+      "stop" : 1564115064082,
+      "duration" : 16692
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://unsplash.com/photos/2TLREZi7BUg", "tuyen" ]
+  }, {
+    "name" : "Check that the image is downloaded and exist in system -- @1.1 ",
+    "uid" : "66122035805d78eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115106891,
+      "stop" : 1564115165617,
+      "duration" : 58726
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5fa251cfe7cd7c4c99529bb74f2f3d51", "https://unsplash.com/photos/2TLREZi7BUg", "tuyen" ]
+  }, {
+    "name" : "Check that the user's location is correct after updated -- @1.1 ",
+    "uid" : "a232d7b4638a82f1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1564115181035,
+      "stop" : 1564115197576,
+      "duration" : 16541
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Vietnam", "tuyen" ]
+  } ]
+}

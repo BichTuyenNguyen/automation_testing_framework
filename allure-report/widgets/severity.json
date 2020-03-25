@@ -1,0 +1,71 @@
+[ {
+  "uid" : "ac81aa3c7dda3dab",
+  "name" : "Check that the user can create a new collection and add a photo into it -- @1.1 ",
+  "time" : {
+    "start" : 1564115028132,
+    "stop" : 1564115047383,
+    "duration" : 19251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ba63c0c93ac63e3",
+  "name" : "Check that the image is downloaded and exist in system -- @1.1 ",
+  "time" : {
+    "start" : 1564115082342,
+    "stop" : 1564115106886,
+    "duration" : 24544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4990552b7702e4ba",
+  "name" : "Check that the image's camera model and focal length are correct -- @1.1 ",
+  "time" : {
+    "start" : 1564115047390,
+    "stop" : 1564115064082,
+    "duration" : 16692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66122035805d78eb",
+  "name" : "Check that the image is downloaded and exist in system -- @1.1 ",
+  "time" : {
+    "start" : 1564115106891,
+    "stop" : 1564115165617,
+    "duration" : 58726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ea62ef5046856d8",
+  "name" : "Check that all related tags of a image are correct -- @1.1 ",
+  "time" : {
+    "start" : 1564115064088,
+    "stop" : 1564115082337,
+    "duration" : 18249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a232d7b4638a82f1",
+  "name" : "Check that the user's location is correct after updated -- @1.1 ",
+  "time" : {
+    "start" : 1564115181035,
+    "stop" : 1564115197576,
+    "duration" : 16541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c800034e60d26e27",
+  "name" : "Check the user's full name after login to the application -- @1.1 ",
+  "time" : {
+    "start" : 1564115165624,
+    "stop" : 1564115181030,
+    "duration" : 15406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

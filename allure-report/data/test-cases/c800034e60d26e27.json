@@ -1,0 +1,113 @@
+{
+  "uid" : "c800034e60d26e27",
+  "name" : "Check the user's full name after login to the application -- @1.1 ",
+  "historyId" : "5dbabfdbf4215e953336b065a3defcb6",
+  "time" : {
+    "start" : 1564115165624,
+    "stop" : 1564115181030,
+    "duration" : 15406
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the user logs in successfully with tuyen",
+      "time" : {
+        "start" : 1564115171835,
+        "stop" : 1564115177621,
+        "duration" : 5786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When the user goes to Collection page",
+      "time" : {
+        "start" : 1564115177621,
+        "stop" : 1564115178813,
+        "duration" : 1192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the user able to see Tuyen Nguyen is displayed",
+      "time" : {
+        "start" : 1564115178813,
+        "stop" : 1564115178857,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "id-1"
+  }, {
+    "name" : "tag",
+    "value" : "check-user-name"
+  }, {
+    "name" : "tag",
+    "value" : "check-user"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Check User Information"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "full_name",
+    "value" : "Tuyen Nguyen"
+  }, {
+    "name" : "username",
+    "value" : "tuyen"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "check-user-name", "check-user", "id-1" ]
+  },
+  "source" : "c800034e60d26e27.json",
+  "parameterValues" : [ "Tuyen Nguyen", "tuyen" ]
+}

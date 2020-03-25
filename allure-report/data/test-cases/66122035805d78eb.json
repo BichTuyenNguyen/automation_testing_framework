@@ -1,0 +1,131 @@
+{
+  "uid" : "66122035805d78eb",
+  "name" : "Check that the image is downloaded and exist in system -- @1.1 ",
+  "historyId" : "9c660c40e2109f139e3362fa5f00cbe5",
+  "time" : {
+    "start" : 1564115106891,
+    "stop" : 1564115165617,
+    "duration" : 58726
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the user logs in successfully with tuyen",
+      "time" : {
+        "start" : 1564115112256,
+        "stop" : 1564115117910,
+        "duration" : 5654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When the user opens an image with ID using this https://unsplash.com/photos/2TLREZi7BUg",
+      "time" : {
+        "start" : 1564115117911,
+        "stop" : 1564115119717,
+        "duration" : 1806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And the user downloads image using API",
+      "time" : {
+        "start" : 1564115119717,
+        "stop" : 1564115163512,
+        "duration" : 43795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the user notices that the hashcode of image is the same with 5fa251cfe7cd7c4c99529bb74f2f3d51",
+      "time" : {
+        "start" : 1564115163513,
+        "stop" : 1564115163513,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "check-image-downloadable-with-hashcode"
+  }, {
+    "name" : "tag",
+    "value" : "id-7"
+  }, {
+    "name" : "tag",
+    "value" : "check-image"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Check Image Handing"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_hashcode",
+    "value" : "5fa251cfe7cd7c4c99529bb74f2f3d51"
+  }, {
+    "name" : "url",
+    "value" : "https://unsplash.com/photos/2TLREZi7BUg"
+  }, {
+    "name" : "username",
+    "value" : "tuyen"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "id-7", "check-image-downloadable-with-hashcode", "check-image" ]
+  },
+  "source" : "66122035805d78eb.json",
+  "parameterValues" : [ "5fa251cfe7cd7c4c99529bb74f2f3d51", "https://unsplash.com/photos/2TLREZi7BUg", "tuyen" ]
+}

@@ -1,5 +1,7 @@
+import os
+from browser.browser import Browser
+from config.env_setup import EnvSetup
 from helper.collection_helper import CollectionHelper
-from helper.photo_helper import PhotoHelper
 
 
 def before_all(context):
@@ -11,17 +13,26 @@ def before_feature(context, feature):
 
 
 def before_scenario(context, scenario):
-    pass
+    context = init_browser_session(context)
+    context.driver.maximize_window()
+    context.driver.get(EnvSetup.SITE)
+
+
+def init_browser_session(context):
+    context.driver = Browser.connection()
+    return context
 
 
 def after_scenario(context, scenario):
-    # delete a collection after creating
-    if "create_a_collection_with_required_field" in scenario.tags:
-        CollectionHelper.delete_a_collection(context.response.json()["id"])
+    if "check-add-photo-to-collection" in scenario.tags:
+        CollectionHelper.delete_a_collection(context.collection_id)
 
-    # unlike photo after like
-    if "like_a_photo_with_specific_id" in scenario.tags:
-        PhotoHelper.unlike_a_photo(context.like_photo_id)
+    if "check-image-downloadable" in scenario.tags:
+        if os.path.exists(context.save_image_location):
+            os.remove(context.save_image_location)
+        else:
+            print("File path does not exist in system.")
+    context.driver.quit()
 
 
 def after_all(context):

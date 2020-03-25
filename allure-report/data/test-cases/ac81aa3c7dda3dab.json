@@ -1,0 +1,155 @@
+{
+  "uid" : "ac81aa3c7dda3dab",
+  "name" : "Check that the user can create a new collection and add a photo into it -- @1.1 ",
+  "historyId" : "32917e9fd938c73712b343e5fc85877b",
+  "time" : {
+    "start" : 1564115028132,
+    "stop" : 1564115047383,
+    "duration" : 19251
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the user logs in successfully with tuyen",
+      "time" : {
+        "start" : 1564115034140,
+        "stop" : 1564115040975,
+        "duration" : 6835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And the user creates a new collection using API with below params",
+      "time" : {
+        "start" : 1564115040976,
+        "stop" : 1564115042220,
+        "duration" : 1244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffa68fc32977836f",
+        "name" : ".table",
+        "source" : "ffa68fc32977836f.csv",
+        "type" : "text/csv",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And the user add a photo with 2TLREZi7BUg into the added collection using API",
+      "time" : {
+        "start" : 1564115042220,
+        "stop" : 1564115042863,
+        "duration" : 643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When the user clicks on the added photo to the collection",
+      "time" : {
+        "start" : 1564115042864,
+        "stop" : 1564115044727,
+        "duration" : 1863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the user notices that the ID of photo in URL is correct",
+      "time" : {
+        "start" : 1564115044727,
+        "stop" : 1564115044734,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "id-5"
+  }, {
+    "name" : "tag",
+    "value" : "check-add-photo-to-collection"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Check User Adds A Photo To Collection"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "description",
+    "value" : "testing selenium"
+  }, {
+    "name" : "photo_id",
+    "value" : "2TLREZi7BUg"
+  }, {
+    "name" : "private",
+    "value" : "False"
+  }, {
+    "name" : "title",
+    "value" : "2172019"
+  }, {
+    "name" : "username",
+    "value" : "tuyen"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "check-add-photo-to-collection", "id-5" ]
+  },
+  "source" : "ac81aa3c7dda3dab.json",
+  "parameterValues" : [ "testing selenium", "2TLREZi7BUg", "False", "2172019", "tuyen" ]
+}

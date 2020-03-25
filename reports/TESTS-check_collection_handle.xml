@@ -1,0 +1,27 @@
+<testsuite errors="0" failures="0" hostname="HSSSC1PCL01464" name="check_collection_handle.Check User Adds A Photo To Collection" skipped="0" tests="1" time="8.233356" timestamp="2019-07-26T10:47:40.708120"><testcase classname="check_collection_handle.Check User Adds A Photo To Collection" name="Check that the user can create a new collection and add a photo into it -- @1.1 " status="passed" time="8.233356"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @id-5 @check-add-photo-to-collection
+  Scenario Outline: Check that the user can create a new collection and add a photo into it -- @1.1 
+    Given the user logs in successfully with tuyen ... passed in 5.439s
+    And the user creates a new collection using API with below params ... passed in 0.413s
+      | title   | description      | private |
+      | 2172019 | testing selenium | False   |
+    And the user add a photo with 2TLREZi7BUg into the added collection using API ... passed in 0.537s
+    When the user clicks on the added photo to the collection ... passed in 1.771s
+    Then the user notices that the ID of photo in URL is correct ... passed in 0.073s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+d:\python\unsplash_selenium\venv\lib\site-packages\urllib3\connectionpool.py:851: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+d:\python\unsplash_selenium\venv\lib\site-packages\urllib3\connectionpool.py:851: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+
+]]>
+</system-err></testcase></testsuite>
